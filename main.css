@@ -1,0 +1,74 @@
+.repo-container {
+  background-color: #eee;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+}
+.repo-container .get-repo {
+  display: flex;
+  gap: 15px;
+}
+.repo-container .get-repo input {
+  display: inline-block;
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  font-size: 16px;
+}
+.repo-container .get-repo input:focus {
+  outline: none;
+}
+.repo-container .get-repo button.show-data {
+  display: inline-block;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F44336;
+  color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.repo-container .get-repo button.show-data:active {
+  background-color: #c92317;
+}
+.repo-container .get-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.repo-container .get-data > div {
+  background-color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+}
+.repo-container .get-data .repo-box span {
+  background-color: #009688;
+}
+.repo-container .get-data .repo-box a {
+  text-decoration: none;
+  background-color: #E91E63;
+}
+.repo-container .get-data .repo-box :is(a, span) {
+  color: #fff;
+  padding: 0 15px;
+  font-size: 16px;
+  float: right;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
